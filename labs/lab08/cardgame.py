@@ -44,6 +44,7 @@ def read_eval_print_loop():
 			return
 		except SyntaxError as e:
 			print('ERROR:', e)
+			
 	p1 = Player(player_deck, name)
 	p2 = Player(opponent_deck, 'Opponent')
 	print(WELCOME_MESSAGE)
@@ -131,5 +132,5 @@ Congratulations! You won this game of Magic: The Lambda-ing!
 """
 
 if __name__ == '__main__':
-    read_eval_print_loop()
+	read_eval_print_loop()
 
